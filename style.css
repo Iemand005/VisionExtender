@@ -5,6 +5,7 @@ body {
 label {
 	background-color: red;
 	background-color: color(display-p3 1 0 0); 
+	background-color: color(rec2020 1 0 0)
 }
 
 input {
