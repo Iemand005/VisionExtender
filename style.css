@@ -6,7 +6,13 @@ label {
 	background-color: green;
 }
 
+input {
+	display: none;
+}
+
 html, body, label {
+	margin: 0;
+	padding: 0;
 	display: flex;
 	flex-direction: column;
 	width: 100%;
