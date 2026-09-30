@@ -10,6 +10,10 @@ input {
 	display: none;
 }
 
+#toggle:checked ~ label {
+	background-color: red;
+}
+
 html, body, label {
 	margin: 0;
 	padding: 0;
