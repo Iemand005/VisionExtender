@@ -3,7 +3,8 @@ body {
 }
 
 label {
-	background-color: green;
+	background-color: red;
+	background-color: color(display-p3 1 0 0); 
 }
 
 input {
@@ -11,7 +12,8 @@ input {
 }
 
 #toggle:checked ~ label {
-	background-color: red;
+	background-color: green;
+	background-color: color(display-p3 0 1 0); 
 }
 
 html, body, label {
